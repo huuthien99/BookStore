@@ -27,8 +27,8 @@ function Header() {
             <div className='header-user-icon'>
               <UserOutlined />
               <div className='header-user-acc'>
-                <Link className='link' to=''> Login</Link>
-                <Link className='link' to=''>Profile</Link>
+                <Link className='link' to='./login'> Login</Link>
+                <Link className='link' to='./profile'>Profile</Link>
                 <Link className='link' onClick={localStorage.removeItem}>Log Out</Link>
               </div>
             </div>
